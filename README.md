@@ -24,20 +24,11 @@ In this project, I've built a **Gradient Generator** app using React.
 <summary>Functionalities</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
-- Initially, the selected gradient direction should be the first value in the given `gradientDirectionsList`
-- The initial values for the HTML input elements with type color should be **#8ae323** and **#014f7b** respectively
-- When the values are provided for both the input elements with type color, then provided values should be the text content for the respective paragraph elements
-- When the **Generate** button is clicked after selecting the direction and picking the colors, the background of the app should have a linear gradient with the selected direction and colors provided
-
-- The `GradientGenerator` component will consist `gradientDirectionsList`. It consists of a list of gradient directions objects with the following properties in each gradient directions object
-
-  |     Key     | Data Type |
-  | :---------: | :-------: |
-  | directionId |  String   |
-  |    value    |  String   |
-  | displayText |  string   |
+- Initially, the default selected gradient direction and default colors are applied as gradients.
+- When the values are provided for both the input elements with type color, then provided values will be as gradient colors.
+- When the **Generate** button is clicked after selecting the direction and picking the colors, the background of the app will have a linear gradient with the selected direction and colors provided.
 
 </details>
 
